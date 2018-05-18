@@ -8,8 +8,8 @@ const VENDOR_LIBS = [
 
 module.exports = {
   entry: {
-    index: './assets/js/realEstate/index.js',
-    // regularJS: './assets/js/regularJS.js',
+    index: './src/js/realEstate/index.js',
+    // regularJS: './src/js/regularJS.js',
     vendor: VENDOR_LIBS
   },
   output: { filename: '[name].js',
